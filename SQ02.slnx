@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="ATM-Project/ATM-Project.csproj" Id="bc2963ca-31d2-4884-bc2a-24287e4369bf" />
+  <Project Path="SQ02/SQ02.csproj" />
+  <Project Path="WeekFour/WeekFour.csproj" Id="064a7d7d-90d7-48a9-b582-e9522b8340de" />
+</Solution>
