@@ -33,7 +33,12 @@ public class EmployeeService : IEmployeeService
 
     public IEnumerable<GetEmployeeDto> GetAllEmployees()
     {
-        var employees = _context.Employees.ToList();
+        var employees = _context.Employees.Select(x => new GetEmployeeDto
+        {
+            LastName = x.LastName,
+            FirstName = x.FirstName,
+            IsActive = x.IsActive,
+        }).ToList();
         return employees;
     }
 

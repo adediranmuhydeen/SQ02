@@ -10,9 +10,6 @@ public class GetEmployeeDto
     [StringLength(50)]
     public string LastName { get; set; }
     public bool IsActive { get; set; }
-    public GetCarDto Car { get; set; }
-    public GetDepartmentDto Department { get; set; }
-    public IQueryable<GetAttendanceDto> Attendances { get; set; }
 
 }
 
