@@ -132,9 +132,13 @@
 
 //Console.WriteLine($"We have {hondaModels.Count()} honda cars\n");
 
-using SQ02;
 
 ///*Console.BackgroundColor = ConsoleColor.DarkGreen;
-double[] array = new double[5] { 1, 2, 3, 4, 5 };
+//double[] array = new double[5] { 1, 2, 3, 4, 5 };
 
-Console.WriteLine(NewMethods.SumArray(array));
+//Console.WriteLine(NewMethods.SumArray(array));
+
+//ThreadPool.GetAvailableThreads(out int worker, out int io);
+//Console.WriteLine($"Worker: {worker}, IO: {io}\n");
+//ThreadPool.GetMaxThreads(out int mWorker, out int mIo);
+//Console.WriteLine($"Max thread: Worker {mWorker} IO: {mIo}");
